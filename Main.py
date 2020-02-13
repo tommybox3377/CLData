@@ -51,8 +51,6 @@ for i in range(len(raw_car_data)):
 for x in c.values():
     cars.append(x)
 
-inpt = input(folder_location)
-
 ### make all files
 for path in os.listdir(folder_location + "/CraigsListSearch"):
     full_path = os.path.join(folder_location + "/CraigsListSearch", path)
