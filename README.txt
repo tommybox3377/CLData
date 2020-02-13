@@ -14,5 +14,5 @@ To run this program you must
     3. save changes
 4. Double click on Main.py and program will run
     a. Files will appear in folder created in step 3.a, Don't open them until "done" is printed on terminal ~ 5 min based on computer and internet
-    b. once "done" is printed the program is done, you make use the files as you wish
+    b. once "done" is printed the program is done, you may use the files as you wish
 5. Back up files before running program again (to another folder!), it will DELETE ALL files in folder created in step 3.a before each run

@@ -13,6 +13,10 @@ import os
 # Make an ***EMPTY** folder named "CraigsListSearch" and place its path as shown below (replace "C:\Users\twmar\OneDrive\Desktop" with your location)
 folder_location = r"C:\Users\twmar\OneDrive\Desktop"
 
+#### Do NOT add the folder name in path \/ \/ \/
+# XXXX folder_location = r"C:\Users\twmar\OneDrive\Desktop\CraigsListSearch" XXXX
+
+
 # over write the following information for all the cars you want to search:
 raw_car_data = [
     # make, model, (trims/submodels)
@@ -46,6 +50,8 @@ for i in range(len(raw_car_data)):
 
 for x in c.values():
     cars.append(x)
+
+inpt = input(folder_location)
 
 ### make all files
 for path in os.listdir(folder_location + "/CraigsListSearch"):
